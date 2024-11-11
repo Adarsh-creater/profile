@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'gill': ['Gill Sans', 'GillSans', 'Verdana', 'sans-serif'], // add your fallbacks here
+      },
+    },
   },
   plugins: [],
 }
